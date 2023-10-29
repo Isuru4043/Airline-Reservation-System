@@ -36,6 +36,31 @@ void mainMenu() {
     cout << " Enter the choice : ";
     cin >> lchoice;
 
+    Details d;
+    Regiatration r;
+    Tickets t;
+
+    switch (lchoice)
+    {
+    case 1:
+    {
+        cout << "_________Customers_________\n"<<endl;
+        d.information();
+        cout << "Press any key to get back main Menu";
+        cin >> back;
+
+        if (back == 1) {
+            mainMenu();
+        }
+        else
+        {
+            mainMenu();
+        }
+        break;
+    }
+    }
+
+
 }
 
 int main()
