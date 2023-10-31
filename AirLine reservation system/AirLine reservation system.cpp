@@ -15,6 +15,32 @@ public:
     }
 };
 
+class Details
+{
+public:
+    static string name, gender;
+    int phoneNo;
+    int age;
+    string add;
+    static int cId;
+    char arr[100];
+
+    void information()
+    {
+        cout << "\nEnter the customer ID:";
+        cin >> cId;
+        cout << "\nEnter the name: ";
+        cin >> name;
+        cout << "\nEnter the age: ";
+        cin >> age;
+        cout << "\nEnter the address: ";
+        cin >> add;
+        cout << "\nEnter the gender: ";
+        cin >> gender;
+        cout << "\nYour details are seved with us\n";
+    }
+};
+
 
 
 void mainMenu() {
