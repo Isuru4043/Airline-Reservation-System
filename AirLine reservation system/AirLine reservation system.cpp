@@ -15,6 +15,8 @@ public:
     }
 };
 
+
+
 void mainMenu() {
     int lchoice;
     int schoice;
@@ -94,6 +96,17 @@ void mainMenu() {
         }
             break;
         
+    }
+    case 4:
+    {
+        cout << "\n\n\t_________Thank You_________" << endl;
+        break;
+    }
+    default :
+    {
+        cout << "Invalid input, Please try again!\n" << endl;
+        mainMenu();
+        break;
     }
 
     }
