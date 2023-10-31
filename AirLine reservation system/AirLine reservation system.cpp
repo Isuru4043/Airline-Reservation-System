@@ -41,6 +41,47 @@ public:
     }
 };
 
+int Details::cId;
+string Details::name;
+string Details::gender;
+
+class registration
+{
+public:
+    static int choice;
+    int choice1;
+    int back;
+    static float charges;
+
+    void flights()
+    {
+        string flightN[] = { "Dubai","Canada","UK","USA","Australia","Europe" };
+
+        for (int i = 0; i < 6; i++)
+        {
+            cout << (i + 1) << ".flight to " << flightN[i] << endl;
+        }
+
+        cout << "\nWelcome to the Airlines!" << endl;
+        cout << "Press the number of the country of which you want to book the flight";
+        cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+        {
+            cout << "____________Welcome to Dubai Emirates_____________" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey.!" << endl;
+
+            cout << "Following are the flights\n" << endl;
+
+
+        }
+       
+        }
+    }
+};
+
 
 
 void mainMenu() {
