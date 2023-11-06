@@ -75,8 +75,346 @@ public:
 
             cout << "Following are the flights\n" << endl;
 
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+
+            cout << "Select the flight you want to book : ";
+            cin >> choice1;
+
+            if (choice1 == 1)
+            {
+                charges = 14000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 2)
+            {
+                charges = 15000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 3)
+            {
+                charges = 16000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+            else
+            {
+                cout << "Invalid input. shifting to the previous menu" << endl;
+                flights();
+            }
+
+            cout << "Press any key to go back to the main menu" << endl;
+            cin >> back;
+
+            if (back == 1)
+            {
+                mainMenu();
+            }
+
+            else
+            {
+                mainMenu();
+            }
 
         }
+
+        case 2:
+        {
+            cout << "____________Welcome to Australian Airlines_____________" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey.!" << endl;
+
+            cout << "Following are the flights\n" << endl;
+
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+
+            cout << "Select the flight you want to book : ";
+            cin >> choice1;
+
+            if (choice1 == 1)
+            {
+                charges = 14000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 2)
+            {
+                charges = 15000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 3)
+            {
+                charges = 16000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+            else
+            {
+                cout << "Invalid input. shifting to the previous menu" << endl;
+                flights();
+            }
+
+            cout << "Press any key to go back to the main menu" << endl;
+            cin >> back;
+
+            if (back == 1)
+            {
+                mainMenu();
+            }
+
+            else
+            {
+                mainMenu();
+            }
+
+        }
+
+        case 3:
+        {
+            cout << "____________Welcome to British Airways_____________" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey.!" << endl;
+
+            cout << "Following are the flights\n" << endl;
+
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+
+            cout << "Select the flight you want to book : ";
+            cin >> choice1;
+
+            if (choice1 == 1)
+            {
+                charges = 14000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 2)
+            {
+                charges = 15000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 3)
+            {
+                charges = 16000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+            else
+            {
+                cout << "Invalid input. shifting to the previous menu" << endl;
+                flights();
+            }
+
+            cout << "Press any key to go back to the main menu" << endl;
+            cin >> back;
+
+            if (back == 1)
+            {
+                mainMenu();
+            }
+
+            else
+            {
+                mainMenu();
+            }
+        }
+
+        case 4:
+        {
+            cout << "____________Welcome to Canada Airlines_____________" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey.!" << endl;
+
+            cout << "Following are the flights\n" << endl;
+
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+
+            cout << "Select the flight you want to book : ";
+            cin >> choice1;
+
+            if (choice1 == 1)
+            {
+                charges = 14000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 2)
+            {
+                charges = 15000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 3)
+            {
+                charges = 16000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+            else
+            {
+                cout << "Invalid input. shifting to the previous menu" << endl;
+                flights();
+            }
+
+            cout << "Press any key to go back to the main menu" << endl;
+            cin >> back;
+
+            if (back == 1)
+            {
+                mainMenu();
+            }
+
+            else
+            {
+                mainMenu();
+            }
+
+        }
+
+        case 5:
+        {
+            cout << "____________Welcome to US Airlines_____________" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey.!" << endl;
+
+            cout << "Following are the flights\n" << endl;
+
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+
+            cout << "Select the flight you want to book : ";
+            cin >> choice1;
+
+            if (choice1 == 1)
+            {
+                charges = 14000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 2)
+            {
+                charges = 15000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 3)
+            {
+                charges = 16000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+            else
+            {
+                cout << "Invalid input. shifting to the previous menu" << endl;
+                flights();
+            }
+
+            cout << "Press any key to go back to the main menu" << endl;
+            cin >> back;
+
+            if (back == 1)
+            {
+                mainMenu();
+            }
+
+            else
+            {
+                mainMenu();
+            }
+
+        }
+
+        case 6:
+        {
+            cout << "____________Welcome to European Airways_____________" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey.!" << endl;
+
+            cout << "Following are the flights\n" << endl;
+
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+            cout << "1. DUB - 498" << endl;
+            cout << "\t08-21-2022 8:00AM 10hrs Rs. 10000" << endl;
+
+            cout << "Select the flight you want to book : ";
+            cin >> choice1;
+
+            if (choice1 == 1)
+            {
+                charges = 14000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 2)
+            {
+                charges = 15000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+
+            else if (choice1 == 3)
+            {
+                charges = 16000;
+                cout << "You have successfully booked the flight DUB - 498" << endl;
+                cout << "You can go back to menu and take the ticket" << endl;
+            }
+            else
+            {
+                cout << "Invalid input. shifting to the previous menu" << endl;
+                flights();
+            }
+
+            cout << "Press any key to go back to the main menu" << endl;
+            cin >> back;
+
+            if (back == 1)
+            {
+                mainMenu();
+            }
+
+            else
+            {
+                mainMenu();
+            }
+
+        }
+
        
         }
     }
