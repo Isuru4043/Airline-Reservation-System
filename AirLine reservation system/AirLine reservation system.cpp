@@ -415,12 +415,15 @@ public:
 
         }
 
+        default :
+        {
+            cout << "Invalid input, shifting you to the main menu!" << endl;
+        }
+
        
         }
     }
 };
-
-
 
 void mainMenu() {
     int lchoice;
@@ -502,6 +505,7 @@ void mainMenu() {
             break;
         
     }
+
     case 4:
     {
         cout << "\n\n\t_________Thank You_________" << endl;
